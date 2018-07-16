@@ -27,7 +27,7 @@ class Game
     if check_answer(number1, number2, ans) == true
       puts "Good job!"
     else
-      puts "You're a disgrace. this is simple maths!"
+      puts "You're a disgrace. This is simple maths!"
       player.lives -= 1
       puts "Lives left: #{player.lives}"
     end
